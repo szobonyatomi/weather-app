@@ -1,0 +1,72 @@
+body {
+  background-color: #62c6b0;
+  font-family: 'Nunito';
+}
+
+.App {
+  text-align: center;
+  color: #fafafa;
+}
+
+.forecastContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.dayBox {
+  padding: 0 10px;
+}
+
+h6 {
+  margin: 5px;
+}
+
+.unitChanger {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* search-bar */
+.search-bar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+input {
+  background-color: rgba(250, 250, 250, 0.3);
+  border-radius: 3px;
+  height: 1.2rem;
+}
+
+input.custom {
+  caret-color: #fafafa;
+}
+
+input:focus {
+  outline: none;
+}
+input,
+.searchIcon {
+  border: none;
+}
+::placeholder {
+  color: rgba(250, 250, 250, 0.6);
+}
+
+:placeholder-shown {
+  color: orange;
+}
+
+.searchIcon {
+  color: rgba(250, 250, 250, 0.3);
+  background-color: transparent;
+  font-size: 1.1rem;
+}
+
+.searchIcon:hover {
+  color: rgba(250, 250, 250, 0.8);
+}
